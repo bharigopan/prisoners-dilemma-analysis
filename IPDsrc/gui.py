@@ -2,7 +2,7 @@ from tkinter import Tk, Frame, IntVar, Button, Label, Menu, Canvas, Entry, TclEr
 import matplotlib
 matplotlib.use('TkAgg')
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
-#    NavigationToolbar2TkAgg
+
 from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 from main import run_simulation
